@@ -111,6 +111,13 @@ limitations under the License.
       }
     }
 
+    this.updateFragment = function(fragment) {
+      this.prog = new Glsl.Program ('attribute vec2 position; void main() { gl_Position = vec4(2.0*position-1.0, 0.0, 1.0);}', fragment);
+      this.defines = this.prog.defines;
+      this.initGL(options.contextArgs);
+      this.load();
+    }
+
     this.initGL(options.contextArgs);
     this.load();
     this.syncAll();
