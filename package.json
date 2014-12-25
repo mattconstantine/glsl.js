@@ -1,0 +1,16 @@
+{
+  "name": "glsl.js",
+  "version": "1.0.1",
+  "description": "* [Read the blog article](http://greweb.me/2013/02/glsl-js-a-javascript-glsl-library-dry-efficient/) * [Open Examples](http://greweb.fr/glsl.js/examples) * [API Documentation](http://greweb.fr/glsl.js/docs) * [Unit tests](http://greweb.fr/glsl.js/test)",
+  "main": "glsl.js",
+  "directories": {
+    "doc": "docs",
+    "example": "examples",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattconstantine/glsl.js.git"
+  },
+  "author": "@greweb"
+}
